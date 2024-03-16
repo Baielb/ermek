@@ -1,0 +1,37 @@
+footer{
+    background-color: #000;
+    color: #fff;
+    padding-top: 72px;
+    padding-bottom: 22px;
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        margin-bottom: 34px;
+        &-logo{
+            width: 307px;
+            margin-right: 205px;
+            .logo-text{
+                margin-top: 35px;
+                width: 300px;
+            }
+        }
+        &-info{
+            width: 135px;
+            margin-right: 102px;
+        }
+        &-category{
+            width: 96px;
+            margin-right: 168px;
+        }
+        &-contacts{
+            width: 233px;
+            p{
+                line-height: 26px;
+            }
+            p:nth-child(2){
+                margin-bottom: 14px;
+            }
+        }
+    }
+}
